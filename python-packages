@@ -1,0 +1,10 @@
+black
+bump2version
+coverage
+flake8
+isort
+jupyterlab
+mypy
+ocdc
+pytest
+tox

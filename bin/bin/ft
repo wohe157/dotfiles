@@ -1,0 +1,13 @@
+#!/bin/sh
+lsd \
+    --almost-all \
+    --classic \
+    --classify \
+    --git \
+    --human-readable \
+    --total-size \
+    --tree \
+    --versionsort \
+    --depth 2 \
+    --group-directories-first \
+    $@

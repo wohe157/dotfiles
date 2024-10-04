@@ -1,0 +1,28 @@
+[user]
+	name = Wouter Heyvaert
+	email = wouter.heyvaert@gorilla.co
+
+[core]
+    editor = nvim
+	ignorecase = false
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+
+[fetch]
+    prune = true
+
+[diff]
+    colorMoved = true
+
+[rerere]
+	enabled = true
+
+[filter "lfs"]
+    required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
