@@ -7,7 +7,7 @@ args = ["--login", "--init-command", "tmux new-session -A -s main"]
 
 [window]
 option_as_alt = "Both"
-decorations = "None"
+decorations = "Full"
 startup_mode = "Maximized"
 
 [font]

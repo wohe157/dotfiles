@@ -40,4 +40,4 @@ vim.opt.smartcase = true            -- but make it case sensitive if an uppercas
 
 -- Colorscheme
 vim.opt.background = "dark"
-vim.cmd.colorscheme("Forestbones")
+vim.cmd.colorscheme("Neobones")

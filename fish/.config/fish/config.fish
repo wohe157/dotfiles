@@ -18,9 +18,15 @@ if status --is-interactive
         pyenv init --path --no-rehash | source
     end
 
+    abbr nv "nvim ."
     abbr gf "git fetch --all --prune"
     abbr gg "git log --all --oneline --graph -n20"
     abbr gs "git status"
+    abbr ga "git add -A"
+    abbr gC "git commit"
+    abbr gCa "git commit --amend --no-edit"
+    abbr gp "git push"
+    abbr gpf "git push --force-with-lease"
 
     set fish_greeting
 end
