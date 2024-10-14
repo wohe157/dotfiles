@@ -19,14 +19,21 @@ return {
 
         require("mason-lspconfig").setup({
             ensure_installed = {
+                "clangd",
+                "harper_ls",
+                "ltex",
                 "lua_ls",
                 "pyright",
+                "yamlls",
             },
         })
 
         -- LSP Configuration
         local lsp = require("lspconfig")
 
+        lsp.clangd.setup({})
+        lsp.harper_ls.setup({})
+        lsp.ltex.setup({})
         lsp.lua_ls.setup({})
         lsp.pyright.setup({
             settings = {
@@ -37,6 +44,7 @@ return {
                 },
             },
         })
+        lsp.yamlls.setup({})
 
         -- Null LS configuration
         local null_ls = require("null-ls")
