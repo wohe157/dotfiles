@@ -19,6 +19,7 @@ return {
 
         require("mason-lspconfig").setup({
             ensure_installed = {
+                "ast_grep",
                 "clangd",
                 "harper_ls",
                 "ltex",
@@ -31,6 +32,7 @@ return {
         -- LSP Configuration
         local lsp = require("lspconfig")
 
+        lsp.ast_grep.setup({})
         lsp.clangd.setup({})
         lsp.harper_ls.setup({})
         lsp.ltex.setup({})

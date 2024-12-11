@@ -19,14 +19,24 @@ if status --is-interactive
     end
 
     abbr nv "nvim ."
-    abbr gf "git fetch --all --prune"
-    abbr gg "git log --all --oneline --graph -n20"
-    abbr gs "git status"
-    abbr ga "git add -A"
+
+    abbr ga "git add"
+    abbr gA "git add -A"
+    abbr gc "git checkout"
     abbr gC "git commit"
     abbr gCa "git commit --amend --no-edit"
-    abbr gp "git push"
-    abbr gpf "git push --force-with-lease"
+    abbr gCm "git commit -m"
+    abbr gf "git fetch --all --prune"
+    abbr gg "git log --all --oneline --graph -n20"
+    abbr gp "git pull"
+    abbr gP "git push origin HEAD"
+    abbr gPf "git push origin HEAD --force-with-lease"
+    abbr gr "git rebase"
+    abbr gra "git rebase --abort"
+    abbr grc "git rebase --continue"
+    abbr gR "git reset --soft"
+    abbr gs "git status"
+    abbr gS "git switch"
 
     set fish_greeting
 end
