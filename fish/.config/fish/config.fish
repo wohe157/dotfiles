@@ -22,6 +22,8 @@ if status --is-interactive
 
     abbr ga "git add"
     abbr gA "git add -A"
+    abbr gb "git branch"
+    abbr gbd "git branch -D"
     abbr gc "git checkout"
     abbr gC "git commit"
     abbr gCa "git commit --amend --no-edit"
