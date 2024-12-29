@@ -18,7 +18,8 @@ if status --is-interactive
         pyenv init --path --no-rehash | source
     end
 
-    abbr nv "nvim ."
+    abbr nv "nvim"
+    abbr pnv "poetry run nvim"
 
     abbr ga "git add"
     abbr gA "git add -A"
