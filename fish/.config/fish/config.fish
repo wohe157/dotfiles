@@ -6,6 +6,7 @@ if status --is-login; and not set -q __fish_login_config_sourced
     set -xg PYENV_ROOT $HOME/.pyenv
 
     fish_add_path ~/bin ~/.local/bin /opt/homebrew/bin
+    fish_add_path /opt/homebrew/opt/curl/bin
 
     set -x __fish_login_config_sourced 1
 end
