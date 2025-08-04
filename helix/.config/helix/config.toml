@@ -1,4 +1,4 @@
-theme  = "gruvbox-material"
+theme  = "tokyonight_storm"
 
 [editor]
 cursorline = true
@@ -9,7 +9,7 @@ trim-trailing-whitespace = true
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
-select = "block"
+select = "underline"
 
 [editor.file-picker]
 hidden = false

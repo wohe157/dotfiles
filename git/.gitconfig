@@ -3,7 +3,7 @@
 	email = wouter.heyvaert@gorilla.co
 
 [core]
-    editor = nvim
+    editor = hx
 	ignorecase = false
 
 [pull]

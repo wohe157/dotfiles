@@ -19,14 +19,10 @@ if status --is-interactive
         pyenv init --path --no-rehash | source
     end
 
-    abbr nv "nvim"
-    abbr pnv "poetry run nvim"
+    abbr ll "ls -a -l"
 
     abbr ga "git add"
     abbr gA "git add -A"
-    abbr gb "git branch"
-    abbr gbd "git branch -D"
-    abbr gc "git checkout"
     abbr gC "git commit"
     abbr gCa "git commit --amend --no-edit"
     abbr gCm "git commit -m"
@@ -35,12 +31,7 @@ if status --is-interactive
     abbr gp "git pull"
     abbr gP "git push origin HEAD"
     abbr gPf "git push origin HEAD --force-with-lease"
-    abbr gr "git rebase"
-    abbr gra "git rebase --abort"
-    abbr grc "git rebase --continue"
-    abbr gR "git reset --soft"
     abbr gs "git status"
-    abbr gS "git switch"
 
     set fish_greeting
 end
