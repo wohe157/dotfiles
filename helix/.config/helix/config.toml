@@ -21,9 +21,6 @@ tab = "all"
 render = true
 character = "▏"
 
-[editor.inline-diagnostics]
-cursor-line = "warning"
-
 [keys.normal]
 "0" = "goto_line_start"
 "$" = "goto_line_end"
