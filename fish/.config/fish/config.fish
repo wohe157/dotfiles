@@ -18,8 +18,6 @@ if status --is-interactive
         pyenv init --path --no-rehash | source
     end
 
-    abbr ll "ls -a -l"
-
     abbr ga "git add"
     abbr gA "git add -A"
     abbr gC "git commit"
@@ -31,6 +29,8 @@ if status --is-interactive
     abbr gP "git push origin HEAD"
     abbr gPf "git push origin HEAD --force-with-lease"
     abbr gs "git status"
+    abbr lg lazygit
+    abbr ll "ls -a -l"
 
     set fish_greeting
 end
