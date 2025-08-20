@@ -1,0 +1,8 @@
+uv python install --default
+
+uv tool update-shell
+
+uv tool install jupyter-core
+uv tool install pre-commit
+uv tool install pytest
+uv tool install ruff

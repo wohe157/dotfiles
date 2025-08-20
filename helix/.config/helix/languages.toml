@@ -2,7 +2,18 @@
 command = "ruff"
 args = ["server"]
 
+[language-server.pylsp.config]
+pylsp.configurationSources = "flake8"
+
+pylsp.plugins.ruff.enabled = true
+pylsp.plugins.flake8.enabled = false
+pylsp.plugins.black.enabled = false
+pylsp.plugins.autopep8.enabled = false
+pylsp.plugins.pycodestyle.enabled = false
+pylsp.plugins.pyflakes.enabled = false
+pylsp.plugins.pydocstyle.enabled = false
+pylsp.plugins.pylint.enabled = false
+
 [[language]]
 name = "python"
-language-servers = ["ruff"]
-auto-format = true
+language-servers = ["ruff", "pylsp"]
