@@ -21,14 +21,16 @@ tab = "all"
 render = true
 character = "▏"
 
+[editor.lsp]
+auto-signature-help = false
+
 [keys.normal]
-"0" = "goto_line_start"
-"$" = "goto_line_end"
 A-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 A-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 
+[keys.normal.space]
+S-k = "signature_help"
+
 [keys.select]
-"0" = "goto_line_start"
-"$" = "goto_line_end"
 A-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 A-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
