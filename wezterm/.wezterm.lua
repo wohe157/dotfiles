@@ -29,7 +29,7 @@ config.window_decorations = "RESIZE"
 config.default_prog = os_config(
   { "/opt/homebrew/bin/fish", "-l" },
   { "/usr/local/bin/fish", "-l" },
-  nil
+  { "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" }
 )
 
 config.keys = {
